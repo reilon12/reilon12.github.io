@@ -1,0 +1,44 @@
+
+#sobremi {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+.sobremi-card {
+    background-color: #162032; 
+    border: 1px solid #48a4cc;
+    border-radius: 16px;
+    max-width: 700px; 
+    margin: 25px auto 25px auto;
+    padding: 30px 35px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.sobremi-card p {
+    color: #cbd5e1;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+}
+
+
+.sobremi-card .highlight {
+    color: #38bdf8; 
+    font-weight: 600;
+}
+
+
+.sobremi-card .bienvenida {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 50px;
+}

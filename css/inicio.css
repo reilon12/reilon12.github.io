@@ -1,0 +1,91 @@
+.inicio {
+    min-height: calc(100vh - 75px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.inicio-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Título Principal */
+.inicio h1 {
+    font-size: 5rem;
+    color: #ffffff;
+    font-weight: 800;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.inicio h1 .highlight {
+    color: #38bdf8;
+}
+
+/* Subtítulo */
+.inicio .subtitulo {
+    color: #cbd5e1;
+    font-size: 1.2rem;
+    margin: 0 auto 35px auto;
+    max-width: 650px;
+    line-height: 1.6;
+}
+
+/* Botones de Acción */
+.inicio-botones {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn {
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.btn_1 {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+.btn_1:hover {
+    background-color: #0284c7;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.btn_2 {
+    background-color: #1e293b;
+    color: #ffffff;
+    border: 1px solid #334155;
+}
+
+.btn_2:hover {
+    border-color: #48a4cc;
+    color: #38bdf8;
+    transform: translateY(-2px);
+}
+
+
+@media (max-width: 768px) {
+    .inicio h1 {
+        font-size: 2.2rem;
+    }
+
+    .inicio .subtitulo {
+        font-size: 1rem;
+    }
+
+    .inicio-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
